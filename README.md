@@ -10,7 +10,7 @@ Our code is divided into four sections:
 3. Model Results
    - There are folders here matching those in the model creation folder; these contain the results of each example model run.
    - We have omitted the model weight files from our GitHub due to size constraints.
-   - The "generic eval" folder within each model folder contains evaluation for the model on SQuAD. Our final evaluation on movie domain-specific QA data, which is cited in our paper, sits within the main model folders.
+   - The "generic eval" folder some model folders contains evaluation for the model on SQuAD. Our final evaluation on movie domain-specific QA data, which is cited in our paper, sits within the main model folders.
 4. Evaluation
    - The movie_qa_eval file in this folder evaluates the model the user provides it on movie domain-specific QA data.
    - The loss_pattern_analysis script facilitates prediction comparisons between two models that the user provides.
